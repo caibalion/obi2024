@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class danca {
 	public static void main(String[] args) {
 		int n,m,p;
-		
+		String o;
 		Scanner input = new Scanner(System.in);
 		n=input.nextInt();
 		m=input.nextInt();
@@ -13,6 +13,9 @@ public class danca {
 		preencher(danca);
 		mostrar(danca);
 		
+		while (p>0){
+			p--;
+		}
 	}
 	
 	public static void preencher(int[][] m) {
